@@ -16,9 +16,14 @@
     "prepare": "npm run build"
   },
   "peerDependencies": {
-    "@telegram-apps/sdk-react": "^2.0.11",
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "@types/react": "^17.0.0 || ^18.0.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "@telegram-apps/sdk-react": "^2.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
   },
   "repository": {
     "type": "git",
@@ -36,10 +41,7 @@
     "@rollup/plugin-commonjs": "^28.0.1",
     "@rollup/plugin-node-resolve": "^15.3.0",
     "@rollup/plugin-typescript": "^12.1.1",
-    "@testing-library/dom": "^10.4.0",
-    "@testing-library/react": "^16.0.1",
     "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
     "rollup": "^2.79.2",
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
