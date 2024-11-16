@@ -1,0 +1,1 @@
+export { TgScreen } from "./tgScreen"
