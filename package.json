@@ -11,13 +11,10 @@
     "dist",
     "LICENSE"
   ],
-  "workspaces": [
-    "examples/demo"
-  ],
   "examples": "./examples/demo",
   "scripts": {
     "build": "rollup -c",
-    "build:demo": "npm run -w demo build",
+    "build:demo": "cd examples/demo && npm run build",
     "prepare": "npm run build"
   },
   "peerDependencies": {
