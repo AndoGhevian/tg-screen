@@ -14,15 +14,16 @@
   "workspaces": [
     "examples/demo"
   ],
+  "examples": "./examples/demo",
   "scripts": {
     "build": "rollup -c",
     "build:demo": "npm run -w demo build",
     "prepare": "npm run build"
   },
   "peerDependencies": {
+    "@telegram-apps/sdk-react": "^2.0.12",
     "@types/react": "^17.0.0 || ^18.0.0",
-    "react": "^17.0.0 || ^18.0.0",
-    "@telegram-apps/sdk-react": "^2.0.0"
+    "react": "^17.0.0 || ^18.0.0"
   },
   "peerDependenciesMeta": {
     "@types/react": {
