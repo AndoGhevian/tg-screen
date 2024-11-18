@@ -14,7 +14,6 @@
   "examples": "./examples/demo",
   "scripts": {
     "build": "rollup -c",
-    "build:demo": "cd examples/demo && npm run build",
     "prepare": "npm run build"
   },
   "peerDependencies": {
