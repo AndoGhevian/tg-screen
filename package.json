@@ -14,10 +14,11 @@
   "examples": "./examples/demo",
   "scripts": {
     "build": "rollup -c",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "postinstall": "npm install @types/react@^18.0.0 --no-save"
   },
   "peerDependencies": {
-    "@telegram-apps/sdk-react": "^2.0.12",
+    "@telegram-apps/sdk-react": "^2.0.0",
     "@types/react": "^17.0.0 || ^18.0.0",
     "react": "^17.0.0 || ^18.0.0"
   },
@@ -42,7 +43,6 @@
     "@rollup/plugin-commonjs": "^28.0.1",
     "@rollup/plugin-node-resolve": "^15.3.0",
     "@rollup/plugin-typescript": "^12.1.1",
-    "@types/react": "^18.3.12",
     "rollup": "^2.79.2",
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
