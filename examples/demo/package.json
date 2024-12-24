@@ -11,24 +11,27 @@
     "tunnel": "lt --port 5173"
   },
   "dependencies": {
-    "@telegram-apps/sdk-react": "^2.0.11",
+    "@telegram-apps/sdk-react": "^2.0.22",
     "random-words": "^2.0.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "tg-screen": "^1.0.4"
   },
+  "overrides": {
+    "react": "^19.0.0",
+    "@types/react": "^19.0.2"
+  },
   "devDependencies": {
-    "@eslint/js": "^9.13.0",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react": "^4.3.3",
-    "eslint": "^9.13.0",
-    "eslint-plugin-react-hooks": "^5.0.0",
-    "eslint-plugin-react-refresh": "^0.4.14",
-    "globals": "^15.11.0",
-    "localtunnel": "^2.0.2",
-    "typescript": "~5.6.2",
-    "typescript-eslint": "^8.11.0",
-    "vite": "^5.4.10"
+    "@eslint/js": "^9.17.0",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.2",
+    "vite": "^6.0.5"
   }
 }
